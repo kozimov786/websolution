@@ -18,8 +18,8 @@ function App() {
       {show && <Navbar />}
       <main>
         <Routes>
-          <Route path='/' element={Home} />
-          <Route path='/about' element={AboutPage} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<AboutPage />} />
         </Routes>
       </main>
       <Footer />

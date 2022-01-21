@@ -89,7 +89,6 @@ const Lang = styled.div`
   letter-spacing: 0.15px;
   span{
     cursor: pointer;
-    padding-bottom: 5px;
   }
   .active{
       box-shadow: 0 2px 0 0 #15E7BD;
