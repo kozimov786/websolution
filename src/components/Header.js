@@ -12,15 +12,25 @@ import Logo from './Logo';
 export default function Header(props) {
   const dispatch = useDispatch()
   const show = useSelector(state => state.ui.show)
+  const activeUz = useSelector(state => state.ui.activeUz)
+  const activeRu = useSelector(state => state.ui.activeRu)
+
+
 
 
   const showHandler = () => {
     dispatch(uiActions.showSide())
+  }
 
+  const avtiveUzHandler = () => {
+    dispatch(uiActions.showActiveUz())
+  }
+  const avtiveRuHandler = () => {
+    dispatch(uiActions.showActiveRu())
   }
 
   return (
-    <Head show={show}>
+    <Head show={show} active={activeUz}>
       <div className="container flex">
         <Menu onClick={showHandler}>
           {!show ? <GiHamburgerMenu color='#fff' size={26} /> : < AiOutlineClose color='white' size={26} />}
@@ -30,9 +40,9 @@ export default function Header(props) {
         <Wrapper>
           <Socials />
           <Lang>
-            <span className='uz'>UZ</span>
+            <span className={activeUz ? "active" : ""} onClick={avtiveUzHandler}>UZ</span>
             |
-            <span className='ru'>RU</span>
+            <span className={activeRu ? "active" : ""} onClick={avtiveRuHandler}>RU</span>
           </Lang>
         </Wrapper>
       </div>
@@ -69,16 +79,19 @@ const Wrapper = styled.div`
  align-items: center;
 `
 const Lang = styled.div`
+  width: 75px;
   font-weight: normal;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   line-height: 20px;
   letter-spacing: 0.15px;
- .uz{
-   margin-right: 10px;
-   cursor: pointer;
- }
- .ru{
-   margin-left: 10px;
-   cursor: pointer;
- }
+  span{
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
+  .active{
+      box-shadow: 0 2px 0 0 #15E7BD;
+    }
 `
