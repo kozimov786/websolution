@@ -1,0 +1,13 @@
+<svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="21.1458" y="21.1458" width="102.708" height="102.708" rx="9.0625" stroke="#08003F" stroke-width="6.04167"/>
+<path d="M24.167 30.2082C24.167 26.8715 26.8719 24.1665 30.2087 24.1665H114.792C118.129 24.1665 120.834 26.8715 120.834 30.2082V42.2915H24.167V30.2082Z" fill="#15E7BD"/>
+<circle cx="33.2288" cy="33.2293" r="3.02083" fill="#08003F"/>
+<circle cx="45.3128" cy="33.2293" r="3.02083" fill="#08003F"/>
+<circle cx="57.3958" cy="33.2293" r="3.02083" fill="#08003F"/>
+<rect x="33.2288" y="51.3543" width="36.25" height="42.2917" stroke="#08003F" stroke-width="6.04167"/>
+<path d="M84.583 54.375H108.75" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M84.583 66.4585H102.708" stroke="#15E7BD" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M84.583 90.625H108.75" stroke="#15E7BD" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M84.583 78.5415H108.75" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M33.2295 108.75L111.771 108.75" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+</svg>

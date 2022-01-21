@@ -1,0 +1,18 @@
+<svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="21.1458" y="21.1458" width="102.708" height="102.708" rx="9.0625" stroke="#08003F" stroke-width="6.04167"/>
+<path d="M24.1665 30.2082C24.1665 26.8714 26.8715 24.1665 30.2082 24.1665H114.792C118.128 24.1665 120.833 26.8714 120.833 30.2082V42.2915H24.1665V30.2082Z" fill="#15E7BD"/>
+<circle cx="33.2293" cy="33.2293" r="3.02083" fill="#08003F"/>
+<circle cx="45.3123" cy="33.2293" r="3.02083" fill="#08003F"/>
+<circle cx="57.3958" cy="33.2293" r="3.02083" fill="#08003F"/>
+<path d="M84.5835 54.375H108.75" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M84.5835 66.4585H102.708" stroke="#15E7BD" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M30.2085 90.625L108.75 90.625" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M84.5835 78.5415H108.75" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M30.2085 102.708L78.5418 102.708" stroke="#15E7BD" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M30.2085 114.792L96.6668 114.792" stroke="#08003F" stroke-width="6.04167" stroke-linecap="round"/>
+<path d="M68.1059 73.7085H38.8535C38.7469 73.7085 38.6569 73.6291 38.6437 73.5233L36.5522 56.7918H72.2293C72.3669 56.7918 72.4678 56.9211 72.4345 57.0546L68.311 73.5483C68.2875 73.6425 68.2029 73.7085 68.1059 73.7085Z" fill="white"/>
+<path d="M30.2085 48.3335H34.2726C34.3696 48.3335 34.4542 48.3995 34.4777 48.4937L36.5522 56.7918M36.5522 56.7918L38.6437 73.5233C38.6569 73.6291 38.7469 73.7085 38.8535 73.7085H68.1059C68.2029 73.7085 68.2875 73.6425 68.311 73.5483L72.4345 57.0546C72.4678 56.9211 72.3669 56.7918 72.2293 56.7918H36.5522Z" stroke="#08003F" stroke-width="4.22917" stroke-linecap="round"/>
+<path d="M42.8936 65.249L64.0394 65.249" stroke="#08003F" stroke-width="4.22917" stroke-linecap="round"/>
+<circle cx="45.0127" cy="80.0532" r="4.22917" fill="white" stroke="#15E7BD" stroke-width="4.22917"/>
+<circle cx="61.9224" cy="80.0532" r="4.22917" fill="white" stroke="#15E7BD" stroke-width="4.22917"/>
+</svg>
