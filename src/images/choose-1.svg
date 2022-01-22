@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M95 20H25C22.2386 20 20 22.2386 20 25V95C20 97.7614 22.2386 100 25 100H65V105H25C19.4772 105 15 100.523 15 95V25C15 19.4772 19.4772 15 25 15H95C100.523 15 105 19.4772 105 25V65H100V25C100 22.2386 97.7614 20 95 20Z" fill="#08003F"/>
+<path d="M25 40H42.5M50 40H95" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 50H70M80 50H95" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 60H67.5" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 90H55" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 70H32.5M40 70H52.5" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 80H40M47.5 80H55" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M20 25C20 22.2386 22.2386 20 25 20H95C97.7614 20 100 22.2386 100 25V35H20V25Z" fill="#15E7BD"/>
+<circle cx="27.5" cy="27.5" r="2.5" fill="#08003F"/>
+<circle cx="37.5" cy="27.5" r="2.5" fill="#08003F"/>
+<circle cx="47.5" cy="27.5" r="2.5" fill="#08003F"/>
+<path d="M75 82.5L80 87.5L90 75" stroke="#15E7BD" stroke-width="5" stroke-linecap="round"/>
+<circle cx="82.5" cy="82.5" r="20" stroke="#08003F" stroke-width="5"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25 20H65C67.7614 20 70 22.2386 70 25V45H75V25C75 19.4772 70.5228 15 65 15H25C19.4772 15 15 19.4772 15 25V95C15 100.523 19.4772 105 25 105H65C70.5228 105 75 100.523 75 95V90H70V95C70 97.7614 67.7614 100 65 100H25C22.2386 100 20 97.7614 20 95V25C20 22.2386 22.2386 20 25 20Z" fill="#08003F"/>
+<path d="M40 25H50" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 95H60" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M25 45H30M37.5 45H50" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 60H50" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M40 75H50" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 50L50 50" stroke="#15E7BD" stroke-width="5" stroke-linecap="round"/>
+<path d="M35 65L50.003 65" stroke="#15E7BD" stroke-width="5" stroke-linecap="round"/>
+<path d="M45 80L50 80" stroke="#15E7BD" stroke-width="5" stroke-linecap="round"/>
+<path d="M99.8048 70H65.2207C65.0946 70 64.9883 69.9061 64.9726 69.781L62.5 50H104.68C104.842 50 104.962 50.1528 104.922 50.3106L100.047 69.8106C100.02 69.9219 99.9195 70 99.8048 70Z" fill="white"/>
+<path d="M55 40H59.8048C59.9195 40 60.0195 40.0781 60.0473 40.1894L62.5 50M62.5 50L64.9726 69.781C64.9883 69.9061 65.0946 70 65.2207 70H99.8048C99.9195 70 100.02 69.9219 100.047 69.8106L104.922 50.3106C104.962 50.1528 104.842 50 104.68 50H62.5Z" stroke="#08003F" stroke-width="5" stroke-linecap="round"/>
+<path d="M70 60L95 60" stroke="#15E7BD" stroke-width="5" stroke-linecap="round"/>
+<circle cx="72.5" cy="77.5" r="5" fill="white" stroke="#08003F" stroke-width="5"/>
+<circle cx="92.5" cy="77.5" r="5" fill="white" stroke="#08003F" stroke-width="5"/>
+</svg>

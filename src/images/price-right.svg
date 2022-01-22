@@ -1,0 +1,18 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="14.5833" y="14.5833" width="70.8333" height="70.8333" rx="6.25" stroke="#08003F" stroke-width="4.16667"/>
+<path d="M16.667 20.8334C16.667 18.5322 18.5325 16.6667 20.8337 16.6667H79.167C81.4682 16.6667 83.3337 18.5322 83.3337 20.8334V29.1667H16.667V20.8334Z" fill="#15E7BD"/>
+<circle cx="22.9163" cy="22.9166" r="2.08333" fill="#08003F"/>
+<circle cx="31.2503" cy="22.9166" r="2.08333" fill="#08003F"/>
+<circle cx="39.5833" cy="22.9166" r="2.08333" fill="#08003F"/>
+<path d="M58.333 37.5H74.9997" stroke="#08003F" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M58.333 45.8333H70.833" stroke="#15E7BD" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M20.833 62.5L74.9997 62.5" stroke="#08003F" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M58.333 54.1667H74.9997" stroke="#08003F" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M20.833 70.8333L54.1663 70.8333" stroke="#15E7BD" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M20.833 79.1667L66.6663 79.1667" stroke="#08003F" stroke-width="4.16667" stroke-linecap="round"/>
+<path d="M46.9691 50.8333H26.7951C26.7215 50.8333 26.6595 50.7785 26.6504 50.7055L25.208 39.1666H49.8129C49.9078 39.1666 49.9774 39.2557 49.9544 39.3478L47.1106 50.7228C47.0944 50.7877 47.0361 50.8333 46.9691 50.8333Z" fill="white"/>
+<path d="M20.833 33.3333H23.6358C23.7027 33.3333 23.7611 33.3788 23.7773 33.4437L25.208 39.1666M25.208 39.1666L26.6504 50.7055C26.6595 50.7785 26.7215 50.8333 26.7951 50.8333H46.9691C47.0361 50.8333 47.0944 50.7877 47.1106 50.7228L49.9544 39.3478C49.9774 39.2557 49.9078 39.1666 49.8129 39.1666H25.208Z" stroke="#08003F" stroke-width="2.91667" stroke-linecap="round"/>
+<path d="M29.582 44.9993L44.1654 44.9993" stroke="#08003F" stroke-width="2.91667" stroke-linecap="round"/>
+<circle cx="31.043" cy="55.2092" r="2.91667" fill="white" stroke="#15E7BD" stroke-width="2.91667"/>
+<circle cx="42.7051" cy="55.2092" r="2.91667" fill="white" stroke="#15E7BD" stroke-width="2.91667"/>
+</svg>

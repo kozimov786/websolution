@@ -1,0 +1,16 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 11H35.75C37.2688 11 38.5 12.2312 38.5 13.75V24.75H41.25V13.75C41.25 10.7124 38.7876 8.25 35.75 8.25H13.75C10.7124 8.25 8.25 10.7124 8.25 13.75V52.25C8.25 55.2876 10.7124 57.75 13.75 57.75H35.75C38.7876 57.75 41.25 55.2876 41.25 52.25V49.5H38.5V52.25C38.5 53.7688 37.2688 55 35.75 55H13.75C12.2312 55 11 53.7688 11 52.25V13.75C11 12.2312 12.2312 11 13.75 11Z" fill="#08003F"/>
+<path d="M22 13.75H27.5" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M16.5 52.25H33" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M13.75 24.75H16.5M20.625 24.75H27.5" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M16.5 33H27.5" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M22 41.25H27.5" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M16.5 27.5L27.5 27.5" stroke="#15E7BD" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M19.25 35.75L27.5017 35.75" stroke="#15E7BD" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M24.75 44L27.5 44" stroke="#15E7BD" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M54.8926 38.5H35.8714C35.802 38.5 35.7435 38.4484 35.7349 38.3796L34.375 27.5H57.5739C57.6633 27.5 57.729 27.5841 57.7073 27.6708L55.026 38.3958C55.0107 38.4571 54.9557 38.5 54.8926 38.5Z" fill="white"/>
+<path d="M30.25 22H32.8926C32.9557 22 33.0107 22.0429 33.026 22.1042L34.375 27.5M34.375 27.5L35.7349 38.3796C35.7435 38.4484 35.802 38.5 35.8714 38.5H54.8926C54.9557 38.5 55.0107 38.4571 55.026 38.3958L57.7073 27.6708C57.729 27.5841 57.6633 27.5 57.5739 27.5H34.375Z" stroke="#08003F" stroke-width="2.75" stroke-linecap="round"/>
+<path d="M38.5 33L52.25 33" stroke="#15E7BD" stroke-width="2.75" stroke-linecap="round"/>
+<circle cx="39.875" cy="42.625" r="2.75" fill="white" stroke="#08003F" stroke-width="2.75"/>
+<circle cx="50.875" cy="42.625" r="2.75" fill="white" stroke="#08003F" stroke-width="2.75"/>
+</svg>

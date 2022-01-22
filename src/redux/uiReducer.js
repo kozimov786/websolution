@@ -4,7 +4,7 @@ const uiReducer = createSlice({
   name: 'ui',
   initialState: {
     show: false,
-    activeUz: false,
+    activeUz: true,
     activeRu: false,
   },
   reducers: {
@@ -12,7 +12,7 @@ const uiReducer = createSlice({
       state.show = !state.show
     },
     showActiveUz(state, action) {
-      state.activeUz = true
+      state.activeUz = !state.activeUz
       state.activeRu = false
     },
     showActiveRu(state) {

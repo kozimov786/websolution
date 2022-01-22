@@ -42,6 +42,10 @@ const FooterInfo = styled.div`
     color: #fff;
     margin-bottom: 62px;
     background-color: transparent;
+    padding: 14px 21px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
     &:hover{
       background-color: #fff;
       color: #08003F;
