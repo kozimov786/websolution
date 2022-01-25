@@ -54,13 +54,14 @@ padding-bottom: 100px;
     color: #08003F;
     &:before {
       content: "";
-      display: block;
       width: 200px;
-      height: 10px;
-      color: #000;
+      z-index: -1;
+      height: 5px;
+      background-color: #15E7BD;
       position: absolute;
-      top: 10px;
-      right: 100px;
+      bottom:5px;
+      right: 320px;
+      display: block;
     }
   }
   ul{

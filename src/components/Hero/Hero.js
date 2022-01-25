@@ -17,7 +17,7 @@ export default function Hero() {
       </div>
       <div className="scroll-img">
         <svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="2" width="36" height="76" rx="18" stroke="#08003F" stroke-width="4" />
+          <rect x="2" y="2" width="36" height="76" rx="18" stroke="#08003F" strokeWidth="4" />
           <circle className='circle' cx="20" cy="20" r="16" fill="#15E7BD" />
         </svg>
       </div>
@@ -34,7 +34,7 @@ position: relative;
   }
   .scroll-img{
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     width: 40px;
