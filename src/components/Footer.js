@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="container flex">
         <Logo />
         <FooterInfo>
-          <button>Buyurtma Berish</button>
+          <button className='btn-secondary'>Buyurtma Berish</button>
           <a href="tel:+998 97 150 1300">+998 97 150 13 00</a>
           <p>©Copyright 2020-2022. Designed by Web Solution design studio</p>
         </FooterInfo>
@@ -38,19 +38,9 @@ const Foot = styled.footer`
 const FooterInfo = styled.div`
   text-align: center;
   button{
-    border: 1px solid #fff;
-    color: #fff;
-    margin-bottom: 62px;
-    background-color: transparent;
-    padding: 14px 21px;
-    border-radius: 10px;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    &:hover{
-      background-color: #fff;
-      color: #08003F;
-    }
+  margin-bottom: 62px;
   }
+
   a{
     color: #fff;
     font-weight: 800;

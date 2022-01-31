@@ -6,6 +6,8 @@ const uiReducer = createSlice({
     show: false,
     activeUz: true,
     activeRu: false,
+    index: 1,
+    errorMessage: null
   },
   reducers: {
     showSide(state) {
@@ -18,6 +20,18 @@ const uiReducer = createSlice({
     showActiveRu(state) {
       state.activeUz = false
       state.activeRu = true
+    },
+    nextHandler(state, action) {
+      state.index += action.payload;
+    },
+    prevHandler(state, action) {
+      state.index -= action.payload;
+    },
+    resetHandler(state, action) {
+      state.index = action.payload;
+    },
+    errorMessage(state, action) {
+      state.errorMessage = action.payload
     }
   }
 })
