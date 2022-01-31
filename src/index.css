@@ -71,3 +71,37 @@ img {
   height: 100%;
   display: block;
 }
+.title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #08003f;
+}
+.title::before {
+  content: "";
+  width: 200px;
+  z-index: -1;
+  height: 5px;
+  background-color: #15e7bd;
+  position: absolute;
+  bottom: 5px;
+  right: 320px;
+  display: block;
+}
+.title-left::before {
+  content: "";
+  width: 200px;
+  z-index: 0;
+  height: 5px;
+  background-color: #15e7bd;
+  position: absolute;
+  bottom: 5px;
+  left: 150px;
+  display: block;
+}

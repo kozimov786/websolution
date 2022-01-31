@@ -13,7 +13,7 @@ export default function Creation() {
   return (
     <div className="container">
       <Wrapper>
-        <h2>Web sayt yaratishga nimalar kiradi?</h2>
+        <h2 className='title title-left'>Web sayt yaratishga nimalar kiradi?</h2>
         <CardList>
           <CardItem className='one'>
             <img src={Web1} alt="" />
@@ -51,27 +51,7 @@ export default function Creation() {
 }
 const Wrapper = styled.div`
    padding-bottom: 50px;
-  h2{
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: 0.25px;
-    color: #08003F;
-    text-align: center;
-    margin-bottom: 60px;
-    position: relative;
-    &:before {
-      content: "";
-      width: 200px;
-      z-index: 0;
-      height: 5px;
-      background-color: #15E7BD;
-      position: absolute;
-      bottom:5px;
-      left: 150px;
-      display: block;
-    }
-  }
+
 `
 
 const CardItem = styled.li`
@@ -86,6 +66,13 @@ const CardItem = styled.li`
   align-items: center;
   border-radius: 5px;
   position: relative;
+  transition: all .3s ease-in-out;
+
+  &:hover{
+    box-shadow: 0px 12px 14px rgba(117, 131, 142, 0.04), 0px 18px 26px rgba(52, 60, 68, 0.1);
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 
 
   &::before{

@@ -11,7 +11,7 @@ import serviceLast from '../../images/service-last.svg';
 export default function Services() {
   return <Wrapper>
     <div className="container">
-      <h2>Bizning xizmatlarimiz</h2>
+      <h2 className='title'>Bizning xizmatlarimiz</h2>
       <ul>
         <li>
           <img src={serviceEcommerce} alt="" />
@@ -41,29 +41,6 @@ export default function Services() {
 const Wrapper = styled.div`
 padding-top: 60px;
 padding-bottom: 100px;
-  h2{
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: 0.25px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #08003F;
-    &:before {
-      content: "";
-      width: 200px;
-      z-index: -1;
-      height: 5px;
-      background-color: #15E7BD;
-      position: absolute;
-      bottom:5px;
-      right: 320px;
-      display: block;
-    }
-  }
   ul{
     display: flex;
     align-items: center;
