@@ -5,6 +5,7 @@ import Hero from '../components/Hero/Hero';
 import Portfolio from '../components/Portfolio/Portfolio';
 import Services from '../components/services/Services';
 import Steps from '../components/Steps/Steps';
+import WhyUs from '../components/WhyUs/WhyUs';
 
 export default function Home() {
   return <div>
@@ -14,5 +15,6 @@ export default function Home() {
     <Steps />
     <FormFill />
     <Portfolio />
+    <WhyUs />
   </div>;
 }
