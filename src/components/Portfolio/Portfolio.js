@@ -98,6 +98,7 @@ export default class Portfolio extends Component {
 const Carousel = styled.div`
  padding-bottom: 150px;
  padding-top: 100px;
+ background-color: #fff;
  h2::before{
    left: 450px;
  }

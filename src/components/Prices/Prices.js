@@ -15,7 +15,7 @@ export default function Prices() {
 
         <Cards>
 
-          <Card>
+          <Card className='side__card'>
             <CardHeader>
               <ImgWrapper>
                 <img src={PriceLeft} alt="" />
@@ -51,6 +51,87 @@ export default function Prices() {
                   <p>Muddat - 20 kun</p>
                 </li>
               </CardList>
+              <btn className="btn btn-secondary">Buyurtma berish</btn>
+            </CardBody>
+          </Card>
+
+          <Card className='middle'>
+            <CardHeader className='middle__header'>
+              <ImgWrapper>
+                <img src={PriceMiddle} alt="" />
+              </ImgWrapper>
+              <h4>Landing Page</h4>
+              <p><b>1 500 000</b>UZS</p>
+              <span>*boshlang’ich narx</span>
+            </CardHeader>
+            <CardBody>
+              <CardList>
+                <li>
+                  <p>Adaptiv dizayn</p>
+                </li>
+                <li>
+                  <p>Tizimli tahlil qilish</p>
+                </li>
+                <li>
+                  <p>Onlayn chat</p>
+                </li>
+                <li>
+                  <p>e-mail pochta sozlamalari</p>
+                </li>
+                <li>
+                  <p>Xosting va domen olishda ko‘maklashish</p>
+                </li>
+                <li>
+                  <p>Bir yil davomida bepul texnik xizmat ko‘rsatish  </p>
+                </li>
+                <li>
+                  <p>Saytni o‘rgatish - 1 soat </p>
+                </li>
+                <li>
+                  <p>Muddat - 15 kun</p>
+                </li>
+              </CardList>
+              <button className="btn btn__middle">Buyurtma berish</button>
+            </CardBody>
+          </Card>
+
+          <Card className='side__card'>
+            <CardHeader >
+              <ImgWrapper>
+                <img src={PriceRight} alt="" />
+              </ImgWrapper>
+              <h4>Internet Magazin</h4>
+              <p><b>5 000 000</b>UZS</p>
+              <span>*boshlang’ich narx</span>
+            </CardHeader>
+            <CardBody>
+              <CardList>
+                <li>
+                  <p>Sayt boshqaruv tizimi</p>
+                </li>
+                <li>
+                  <p>Adaptiv dizayn</p>
+                </li>
+                <li>
+                  <p>Shaxsiy kabinet</p>
+                </li>
+                <li>
+                  <p>Bepul domen</p>
+                </li>
+                <li>
+                  <p>Click / Payme / Mastercard / Visa to‘lov tizimlari</p>
+                </li>
+                <li>
+                  <p>Bir yil davomida bepul texnik xizmat ko‘rsatish </p>
+                </li>
+                <li>
+                  <p>Saytni o‘rgatish - 3 soat </p>
+                </li>
+                <li>
+                  <p>Muddat - 1 oy</p>
+                </li>
+              </CardList>
+              <btn className="btn btn-secondary">Buyurtma berish</btn>
             </CardBody>
           </Card>
 
@@ -65,6 +146,7 @@ padding-top: 100px;
 padding-bottom: 130px;
 background-color: #fff;
 h2{
+  margin-bottom: 110px;
   &::before{
     left: 400px;
   }
@@ -74,12 +156,53 @@ h2{
 const Cards = styled.div`
 display: flex;
 align-items: center;
+.side__card{
+  position: relative;
+  &::after{
+    content: '';
+    width: 90%;
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: 10px;
+    height: 10px;
+    z-index: 0;
+    background: #08003F;
+    border-radius: 5px 5px 0px 0px;
+  }
+}
+.middle{
+  width: 466px;
+  height: 800px;
+  z-index: 999;
+}
+.middle__header{
+  background-color: rgba(8, 0, 63, 1);
+  height: 258px;
+  h4,p,span,b{
+  color: #fff;
+
+  }
+ }
 `
 
 const Card = styled.div`
   background: #FFFFFF;
   box-shadow: 0px 2px 4px rgba(117, 131, 142, 0.04), 0px 8px 16px rgba(52, 60, 68, 0.1);
   border-radius: 5px;
+  .btn__middle{
+    width: 180px;
+    margin: 80px auto 0;
+    display: block;
+    border: 1px solid transparent;
+  }
+  .btn-secondary{
+    border-color: #000;
+    color: #000;
+    width: 180px;
+    margin: 60px auto 0;
+    display: block;
+  }
 `
 
 const CardHeader = styled.div`
@@ -125,6 +248,7 @@ const ImgWrapper = styled.div`
  position: absolute;
  top: 0px;
  left: 50%;
+ z-index: 1;
  transform: translate(-50%,-50%);
  background: #FFFFFF;
 box-shadow: 0px 0px 2px rgba(117, 131, 142, 0.04), 0px 4px 8px rgba(52, 60, 68, 0.16);
@@ -156,6 +280,7 @@ list-style-type: none;
     line-height: 28px;
     color: #343C44;
     font-weight: normal;
+    width: 290px;
    }
  }
 `

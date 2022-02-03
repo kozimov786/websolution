@@ -50,6 +50,7 @@ export default function WhyUs() {
 
 const Wrapper = styled.div`
 padding-top: 50px;
+background-color: #fff;
 padding-bottom: 50px;
  h2{
    margin-bottom: 20px;
