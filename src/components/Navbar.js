@@ -1,14 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 import Socials from './Socials';
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { uiActions } from '../redux/uiReducer';
+
 
 export default function Navbar() {
+
+  const dispatch = useDispatch()
+
+  const hideHandler = () => {
+    dispatch(uiActions.showSide())
+  }
+
   return (
     <Nav>
       <div className="container flex">
         <ul className='about'>
           <li>
-            <a href="/">Biz Haqimizda</a>
+            <Link to="/about" onClick={hideHandler}>Biz Haqimizda</Link>
           </li>
           <li>
             <a href="/">Portfolio</a>
