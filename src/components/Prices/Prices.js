@@ -136,6 +136,7 @@ export default function Prices() {
           </Card>
 
         </Cards>
+        <p className='extra-info'>*Bundan tashqari sizning takliflaringizga ko’ra ham web saytlar tayyorlab beriladi.</p>
       </div>
     </Content>
   )
@@ -145,6 +146,14 @@ const Content = styled.div`
 padding-top: 100px;
 padding-bottom: 130px;
 background-color: #fff;
+.extra-info{
+  font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+margin-top: 30px;
+letter-spacing: 0.5px;
+color: #343C44;
+}
 h2{
   margin-bottom: 110px;
   &::before{

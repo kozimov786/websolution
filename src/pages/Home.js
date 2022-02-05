@@ -1,5 +1,6 @@
 import React from 'react';
 import Creation from '../components/Creation';
+import Extra from '../components/Extra/Extra';
 import FormFill from '../components/Form/Form';
 import Hero from '../components/Hero/Hero';
 import Portfolio from '../components/Portfolio/Portfolio';
@@ -18,5 +19,6 @@ export default function Home() {
     <Portfolio />
     <WhyUs />
     <Prices />
+    <Extra />
   </div>;
 }
